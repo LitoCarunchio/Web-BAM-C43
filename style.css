@@ -1,0 +1,136 @@
+*  {
+    margin: 0; /* significa que no hay margen */
+    padding: 0; /* significa que no hay espacio entre los elementos */
+    box-sizing: border-box;  /*significa que todos los elementos van a tener el ancho y alto que le asignemos*/
+    
+}
+
+body {
+    font-family: 'Lexend'; /*para que se vea la fuente*/
+    font-style: normal; /*sirve para que se vea el estilo de la fuente*/
+    font-weight: 300; /*sirve para que se vea el peso de la fuente*/
+    font-display: swap; /*sirve para que se vea la fuente*/
+    font-size: 16px; /*tamaño de la fuente*/
+    line-height: 1.5;   /*espacio entre lineas*/
+    color: #333; /*color de la fuente*/
+    background-image: url(https://i.pinimg.com/originals/20/33/59/2033593ff1b1c0ad9dba7b1443f81e21.jpg); /*para que se vea la imagen de fondo*/
+    background-size: cover; /*para que la imagen de fondo se ajuste al tamaño de la pantalla*/
+}
+
+/* header.css */
+.header {
+    display: flex; /*para que se vea el header*/
+    justify-content: space-between; /* sirve para que se justifique el header*/
+    align-items: center; /*para que se alinee el header*/
+    padding: 1rem 2rem; /*para que el header tenga un padding, que es el espacio que hay entre el borde y el contenido*/
+    background-image: url(https://wallpaperaccess.com/full/2090977.jpg);
+    background-size: cover;
+}
+
+
+.titulo {
+    font-size: 1.2rem; /*tamaño de la fuente*/
+    font-weight: 300; /*sirve para que se vea el peso de la fuente*/
+    margin-left: 6rem; /*para que se vea el margen izquierdo*/
+    margin-right: 6rem; /*para que se vea el margen derecho*/
+    justify-self: unset; /*para que se vea el titulo*/
+}
+
+.container {
+    display: flex; /*para que se vea el contenedor*/
+    justify-content: space-between; /* sirve para que se justifique el contenedor*/
+    align-items: center; /*para que se alinee el contenedor*/
+    background-image: url(https://wallpaperaccess.com/full/2090977.jpg);
+    background-size: cover;
+}
+
+.container img{
+    width: 300px; /*sirve para determinar el tamaño de la imagen*/
+    height: 400px;  /*sirve para determinar el tamaño de la imagen desde arriba hacia abajo*/
+}
+
+
+
+/* main.css */
+
+.main {
+    display: flex; /*para que se vea el main, significa que se va a mostrar en una sola fila*/
+    justify-content: space-between; /* sirve para que se justifique el main*/
+    align-items: center; /*para que se alinee el main*/
+    padding: 1rem 2rem; /*para que el main tenga un padding, que es el espacio que hay entre el borde y el contenido*/
+    background-color: #fff; /*color de fondo*/
+}
+
+.bibliografia {
+    font-size: 1.2rem; /*tamaño de la fuente*/
+    font-weight: 300; /*sirve para que se vea el peso de la fuente*/
+    margin-left: 6rem; /*para que se vea el margen izquierdo*/
+    margin-right: 6rem; /*para que se vea el margen derecho*/
+    justify-self: unset; /*para que se vea el titulo*/
+    text-align: justify; /*para que se vea el texto centrado*/
+}
+
+.container {
+    display: flex; /*para que se vea el contenedor*/
+    justify-content: space-between; /* sirve para que se justifique el contenedor*/
+    align-items: center; /*para que se alinee el contenedor*/
+    text-align: justify; /*para que se vea el texto centrado*/
+}
+
+.container img{
+    width: 300px; /*sirve para determinar el tamaño de la imagen*/
+    height: 400px;  /*sirve para determinar el tamaño de la imagen desde arriba hacia abajo*/
+}
+
+.trayectoria {
+    font-size: 1.2rem; /*tamaño de la fuente*/
+    font-weight: 300; /*sirve para que se vea el peso de la fuente*/
+    margin-left: 6rem; /*para que se vea el margen izquierdo*/
+    margin-right: 6rem; /*para que se vea el margen derecho*/
+    justify-self: unset; /*para que se vea el titulo*/
+    text-align: justify; /*para que se vea el texto centrado*/
+}
+.estudios {
+    font-size: 1.2rem; /*tamaño de la fuente*/
+    font-weight: 300; /*sirve para que se vea el peso de la fuente*/
+    margin-left: 6rem; /*para que se vea el margen izquierdo*/
+    margin-right: 6rem; /*para que se vea el margen derecho*/
+    justify-self: unset; /*para que se vea el titulo*/
+    text-align: justify; /*para que se vea el texto centrado*/
+}
+
+.film {
+    font-size: 1.2rem; /*tamaño de la fuente*/
+    font-weight: 300; /*sirve para que se vea el peso de la fuente*/
+    margin-left: 6rem; /*para que se vea el margen izquierdo*/
+    margin-right: 6rem; /*para que se vea el margen derecho*/
+    justify-self: unset; /*para que se vea el titulo*/
+    text-align: justify; /*para que se vea el texto centrado*/
+}
+
+.premios {
+    font-size: 1.2rem; /*tamaño de la fuente*/
+    font-weight: 300; /*sirve para que se vea el peso de la fuente*/
+    margin-left: 6rem; /*para que se vea el margen izquierdo*/
+    margin-right: 6rem; /*para que se vea el margen derecho*/
+    justify-self: unset; /*para que se vea el titulo*/
+    text-align: justify; /*para que se vea el texto centrado*/
+}
+
+/* footer.css */
+
+.footer {
+    display: flex; /*para que se vea el footer*/
+    justify-content: space-between; /* sirve para que se justifique el footer*/
+    align-items: center; /*para que se alinee el footer*/
+    padding: 1rem 2rem; /*para que el footer tenga un padding, que es el espacio que hay entre el borde y el contenido*/
+    background-color: #fff; /*color de fondo*/
+}
+
+
+
+
+
+
+
+
