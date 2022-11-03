@@ -1,0 +1,80 @@
+*  {
+    margin: 0; /* significa que no hay margen */
+    padding: 0; /* significa que no hay espacio entre los elementos */
+    box-sizing: border-box; /* Para que el ancho y alto de los elementos sean los que se le asignan */
+    font-family: 'Lexend';
+}
+
+body {
+    background: black;
+    font: white;
+}
+
+header {
+    background: black;
+    justify-content: space-between;
+    align-items: center;
+    display: flexbox;
+    font-size: 18px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+main {
+    background: black;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.container {
+    background-color: black; /*para que se vea el color de fondo*/
+    background-image: url(./img/fotohuhg.jpg); 
+    background-size: 90%;
+    background-attachment: fixed; /*para que la imagen de fondo se ajuste al tamaño de la pantalla*/
+    height: 70vh;
+    width: 100%;
+    display: flow-root; /*para que se vea el container*/
+}    
+
+.container h1 {
+    color: white;
+    font-size: 50px;
+    margin: auto;
+    text-align: left;
+    padding: 2rem 0 0 2rem;
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 700; /*sirve para que se vea el peso de la fuente*/
+    font-display: swap;
+    font-size: 50px;
+    line-height: 1.5;
+}
+
+.container h2 {
+    color: white;
+    font-size: 30px;
+    margin: auto;
+    padding: 1rem 0 0 2rem;
+    text-align: left;
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 400;
+}
+
+.carousel-item {
+    background: black;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    
+}
+
