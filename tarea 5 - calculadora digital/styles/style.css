@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=Kdam+Thmor+Pro&family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400&family=Rubik+Spray+Paint&display=swap');
+
+html{
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    align-items: center;
+    display:flex;
+    background-image: url(https://images.alphacoders.com/206/206871.jpg);
+    font-family: IBM Plex Mono, monospace;
+    font-weight: 600;
+    font-display: swap;
+    height: 90%;
+    justify-content: center;
+}
+
+.wrapper{
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(255, 255, 255, 0.75);
+    border: 10px solid rgb(255, 255, 255); /*esta linea es la que hace que el borde sea transparente*/
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    color: #232323;
+    backdrop-filter: blur(4px);
+    background: rgba(255, 255, 255, 0.996);
+    border: 1px solid rgba(255,255,255,0.34);
+    flex-basis: 400px;
+    height: 540px;
+    padding: 20px 35px;
+    font-family: IBM Plex Mono, monospace;
+    font-weight: 600;
+}
+
+.calc-screen{
+    -webkit-backdrop-filter: blur(5.5px);
+    backdrop-filter: blur(5.5px);
+    background: rgba(151, 151, 151, 0.525);
+    border-radius: 10px;
+    color: #000000;
+    font-size: 35px;
+    overflow: auto;
+    padding: 20px;
+    text-align: right;
+    width: 326px;
+}
+
+.calc-button-row{
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 0;
+    font-family: IBM Plex Mono, monospace;
+    font-weight: 600px;
+}
+
+.calc-button{
+    -webkit-backdrop-filter: blur(5.5px);
+    backdrop-filter: blur(5.5px);
+    background: rgba(255, 232, 147, 0.621);
+    border: 1px solid rgba(255, 255, 255, 0.01);
+    border-radius: 12px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    color: #232323;
+    flex-basis: 20%;
+    font-family: IBM Plex Mono, monospace;
+    font-weight: 600px;
+    font-size: 24px;
+    height: 65px;
+}
+
+.calc-button:last-child{
+    -webkit-backdrop-filter: blur(5.5px);
+    backdrop-filter: blur(5.5px);
+    border: 1px solid rgba(255, 255, 255, 0.01);
+    border-radius: 12px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    color:#232323;
+    background-color: rgba(39, 255, 82, 0.8);
+}
+
+.calc-button:last-child:hover{
+    background-color:  rgba(39, 255, 82, 0.8);
+    color: inherit;
+}
+
+.calc-button:hover{
+    background-color: inherit;
+}
+
+.calc-button:active{
+    background-color: rgba(255, 253, 141, 0.703);
+}
+
+.calc-button:last-child:active{
+    background-color: rgba(39, 255, 82, 0.8);
+    color: inherit;
+}
+
+.double{
+    flex-basis: 47%;
+}
+
