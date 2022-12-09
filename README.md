@@ -6,4 +6,4 @@ Realizar una biografia (pueden usar la que hicieron con html + css) integrando b
 ### **TAREA 4**
 Crear calculadora con Js.
 ### **TAREA 5**
-Crear calucladora con Js y boostrap.
+Crear calculadora con Js y boostrap.
